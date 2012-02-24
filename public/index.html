@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <title>
+      Sophie
+    </title>
+    <link rel="stylesheet" href="stylesheets/mysite.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="ICBM" content="41.954831, -87.732675">
+    <meta name="DC.title" content="Sophie">
+  </head>
+
+
+  <body>
+
+    <div id="container">
+
+      <div id="titlerow">
+        <div id="left">
+          <span id="title">
+          Sophie
+          </span>
+        </div>
+
+        <div id="right">
+          <span id="subtitle">
+        
+          </span>
+        </div>
+      </div>
+
+      <div id="contentrow">
+
+
+      <div class="imgbox">
+        <script type="text/javascript">
+          function real_photo_name(img, i) {
+           return img.src.substring(0, img.src.length - 5) + i +
+              img.src.substring(img.src.length - 4);
+          }
+          function real_photo(img)   { img.src = "images/me.jpg"; }
+          function avatar_photo(img) { img.src = "images/avatar.png"; }
+        </script>
+
+        <a href="#"
+         onMouseOver="real_photo(photo)"
+         onMouseOut="avatar_photo(photo)"
+         ><img name="photo" width="180" height="250" border="0"
+         src="images/avatar.png" alt="" align="right"></a>
+
+        <script type="text/javascript">
+          with(document) {
+            preload_photo = new Image(photo.width, photo.height);
+            preload_photo.src = "images/avatar.png";
+          }
+        </script>
+     </div>
+
+      <dl>
+        <dt>
+          Hi everybody!
+        </dt>
+        <dd>
+          <p>My name is Sophie and I'm 27 years old. I live in Montevideo, Uruguay and I work as a developer in a telecommunications company.</p>
+        </dd>
+
+        <dt>
+          What I love
+        </dt>
+        <dd>
+
+			<UL type = disk >
+				<LI>My boyfriend
+				<LI>Traveling
+				<LI>Watching movies and TV series
+			</UL>
+		</dd>
+		
+		<dt>
+          What I hate
+        </dt>
+        <dd>
+
+			<UL type = disk >
+				<LI>Disrespect
+				<LI>Public speaking
+				<LI>Cleaning the bathroom
+			</UL>
+		</dd>
+	
+   </div>
+  </body>
+</html>

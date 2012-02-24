@@ -1,0 +1,91 @@
+img {
+  border: 0px;
+}
+
+font {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-weight : normal; 
+
+}
+
+body { 
+   font-family : Helvetica, sans-serif, Arial; 
+   font-weight : normal; 
+   color : #000000; 
+   background: white;
+}
+
+div.warning {
+   font-size: 18px;
+   font-weight: bold;
+   color: red;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border: thick solid red 
+}
+
+div.imgbox {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+/* =================================== */
+
+/* Body of the webpages. */
+
+dt {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -12px;
+}
+
+dd {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+/* ======================================================= */
+
+#container {
+  display: table;
+  width: 600px;
+  text-align: center;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#titlerow #navrow #contentrow #footerrow  {
+  display: table-row;
+}
+
+#contentrow {
+  text-align: left;
+  padding-left: 5px;
+}
+
+#left, #middle {
+  display: table-cell;
+  padding-left: 5px;
+  text-align: left;
+}
+
+#right, #middle {
+  display: table-cell;
+  text-align: right;
+  width: 100%;
+  padding-right: 10px;
+}
+
+#title {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 24px;
+  font-weight: bold;
+  color: #C12820;
+  text-align: left;
+}
